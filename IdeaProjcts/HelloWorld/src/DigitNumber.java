@@ -9,9 +9,8 @@ public class DigitNumber {
         System.out.println("Введите число: ");
         //int x = scanner.nextInt();
         String a = scanner.nextLine();
-       // System.out.println(a);
+        // System.out.println(a);
         int x = scanner.nextInt();
-       // int numberLenght = a.length();
         int sum = 0;
         for (int i = 1; i <= a.length(); i++) {
             int digit = (x / (int) Math.pow(10, i - 1)) % 10;
