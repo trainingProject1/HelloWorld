@@ -11,6 +11,7 @@ public class DigitNumber {
         String a = scanner.nextLine();
         // System.out.println(a);
         int x = scanner.nextInt();
+        
         int sum = 0;
         for (int i = 1; i <= a.length(); i++) {
             int digit = (x / (int) Math.pow(10, i - 1)) % 10;
