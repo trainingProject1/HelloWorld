@@ -6,7 +6,7 @@ public class Circle {
         double radius = 5;
         double area = Math.PI * Math.pow(radius, 2);
         double circumference = 2 * Math.PI * radius;
-        System.out.println("При радиусе =" + radius + System.lineSeparator() + "площадь окружности будет =" + area + System.lineSeparator() + "А длина составит =" + circumference);
+        System.out.println("При радиусе =" + radius + System.lineSeparator() + "площадь окружности будет =" + area + System.lineSeparator() +       "А длина составит =" + circumference);
 
         area = 16;/*найти радиус
         через площадь*/

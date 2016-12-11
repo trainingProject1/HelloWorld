@@ -14,7 +14,7 @@ public class NumbersRow {
         System.out.println("введите количество символов в строке: ");
         int characters = scanner.nextInt();
         int count = 0;
-        while (i < end) {
+        while (i <= end) {
             ++count;
             if (count % characters == 0) {
                 System.out.printf("%4d", i);

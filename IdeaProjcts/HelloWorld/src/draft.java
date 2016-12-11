@@ -4,25 +4,14 @@ import java.util.Scanner;
  * Created by Alexey on 20.10.2016.
  */
 public class draft {
+    public static double segmentLength (double x1, double x2, double y1, double y2){
+        double  result = Math.sqrt(Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2));
+        return result;
+    }
     public static void main(String[] args) {
-        int x = 123;
-        int n = 3;
-        int a = 0;
-        int sum = 0;
-
-        for (int i = 1; i <= n; i++) {
-            System.out.print("i" + i);
-            int fibonacci = 0;
-            int digit = (x / (int) Math.pow(10, i - 1)) % 10;
-            System.out.println("," + digit);
-             sum += digit;
-           // fibonacci = a + digit;
-          //  a = digit;
-          //  digit = fibonacci;
-            //i++;
-
-            System.out.println("*" + sum);
-
+     //   double a = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
+       // double b = Math.sqrt(Math.pow((x3 - x2), 2) + Math.pow((y3 - y2), 2));
+        //double c = Math.sqrt(Math.pow((x3 - x1), 2) + Math.pow((y3 - y1), 2));
         }
     }
-}
+

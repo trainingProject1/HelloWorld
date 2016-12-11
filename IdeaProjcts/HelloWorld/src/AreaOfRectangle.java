@@ -7,6 +7,6 @@ public class AreaOfRectangle {
         double length = 7.5; // длина прямоугольника
         double perimeter = (width * length) * 2;
         double area = (width * length);
-        System.out.printf("периметр прямоугольника =%10.2f gfgf%nплощать прямоугольника =%11.2f",perimeter, area);
+        System.out.printf("периметр прямоугольника =%10.2f %nплощать прямоугольника =%11.2f",perimeter, area);
     }
 }
