@@ -6,8 +6,8 @@ import java.io.PrintWriter;
  */
 public class ClassWork031216_3 {
     public static void main(String[] args) throws IOException{
-        try (PrintWriter writer = new PrintWriter("output.txt")) {
-            writer.println("домой хочу!!!");
+        try   (PrintWriter writer = new PrintWriter("output.txt")) {
+             writer.println("домой хочу!!!");
         }
     }
 }
