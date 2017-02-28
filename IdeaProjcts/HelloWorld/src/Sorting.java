@@ -17,7 +17,6 @@ public class Sorting {
                 numbers[i] = scanner.nextInt();
             }
         }
-
         // Сортировка методом вставки
         for (int i = 0; i < numbersCount; i++) {
             int t = numbers[i];
