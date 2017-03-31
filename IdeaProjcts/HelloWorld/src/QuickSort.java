@@ -4,33 +4,33 @@ import java.util.Random;
  * Created by Alexey on 17.03.2017.
  */
 public class QuickSort {
-    public static int[] qSort(int[] array, int l, int r) {
+    public static int[] qSort(int[] arrey, int l, int r) {
         int i = l;
         int j = r;
         Random rand = new Random();
-        int x = array[l + rand.nextInt (r - l + 1)];
+        int left = arrey[l + rand.nextInt (r - l + 1)];
         while (i <= j) {
-            while (array[i] < x) {
+            while (arrey[i] < left) {
                 i++;
             }
-            while (array[j] > x) {
+            while (arrey[j] > left) {
                 j--;
             }
             if (i <= j) {
-                int temp = array[i];
-                array[i] = array[j];
-                array[j] = temp;
+                int temp = arrey[i];
+                arrey[i] = arrey[j];
+                arrey[j] = temp;
                 i++;
                 j--;
             }
         }
         if (l<j){
-            qSort(array, l, j);
+            qSort(arrey, l, j);
         }
         if(i<r){
-            qSort(array, i, r);
+            qSort(arrey, i, r);
         }
-        return array;
+        return arrey;
     }
 
     public static void main(String[] args) {
